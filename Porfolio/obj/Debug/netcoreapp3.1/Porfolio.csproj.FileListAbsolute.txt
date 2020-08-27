@@ -9,7 +9,6 @@ C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Porfoli
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Porfolio.pdb
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Porfolio.Views.dll
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Porfolio.Views.pdb
-C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.csprojAssemblyReference.cache
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.AssemblyInfoInputs.cache
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.AssemblyInfo.cs
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.RazorAssemblyInfo.cache
@@ -107,7 +106,16 @@ C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\ru\Micr
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
-C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.csproj.CoreCompileInputs.cache
-C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Razor\Views\Course\Index.cshtml.g.cs
 C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Razor\Views\Education\Index.cshtml.g.cs
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Grpc.Core.dll
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\Grpc.Core.Api.dll
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x64.so
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\linux\native\libgrpc_csharp_ext.x86.so
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x64.dylib
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\osx\native\libgrpc_csharp_ext.x86.dylib
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x64.dll
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\bin\Debug\netcoreapp3.1\runtimes\win\native\grpc_csharp_ext.x86.dll
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.csproj.CoreCompileInputs.cache
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp3.1\Porfolio.csprojAssemblyReference.cache

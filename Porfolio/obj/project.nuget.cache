@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "lVmlnAD47PaLC0fRxM6/5heKynPEF/rR8z9aiz0gjCHkAFm7c808Rg2yohZAK/40vIBpwLN+2hoW60kVzWWBGw==",
+  "dgSpecHash": "qdOJcvr9TrtBiq2rGUFcJprWycaI2dC6UhQhUjtrcxJgv36TvIpmhQNwJ4lQ1fTh2oikdO62DeP/nBut5RaPUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mkbew\\source\\repos\\PorfolioRdy\\Porfolio\\Porfolio.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mkbew\\.nuget\\packages\\grpc.core\\2.31.0\\grpc.core.2.31.0.nupkg.sha512",
+    "C:\\Users\\mkbew\\.nuget\\packages\\grpc.core.api\\2.31.0\\grpc.core.api.2.31.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\mkbew\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.1.0\\microsoft.aspnetcore.razor.language.3.1.0.nupkg.sha512",

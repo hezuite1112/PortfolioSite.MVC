@@ -45,7 +45,7 @@
   $(window).scroll(navbarCollapse);
 
   // Magnific popup calls
-  $('#portfolio').magnificPopup({
+  $('#certficates').magnificPopup({
       delegate: 'a',
     type: 'image',
     tLoading: 'Loading image #%curr%...',
@@ -56,8 +56,7 @@
       preload: [0, 1]
     },
     image: {
-        tError: "<a href="%url%">"
-        //'<a href="%url%">The image #%curr%</a> could not be loaded.'
+        tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
     }
   });
 

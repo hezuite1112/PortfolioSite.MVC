@@ -1,0 +1,4 @@
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp2.0\Porfolio.csprojAssemblyReference.cache
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp2.0\Porfolio.AssemblyInfoInputs.cache
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp2.0\Porfolio.AssemblyInfo.cs
+C:\Users\mkbew\source\repos\PorfolioRdy\Porfolio\obj\Debug\netcoreapp2.0\Porfolio.csproj.CoreCompileInputs.cache

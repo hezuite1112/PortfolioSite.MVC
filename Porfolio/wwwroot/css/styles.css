@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*!
 * Start Bootstrap - Creative v6.0.3 (https://startbootstrap.com/themes/creative)
 * Copyright 2013-2020 Start Bootstrap
@@ -196,9 +196,14 @@ figure {
   margin: 0 0 1rem;
 }
 
-img {
-  vertical-align: middle;
-  border-style: none;
+a img {
+    vertical-align: middle;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    -webkit-box-shadow: -9px 7px 41px -1px rgba(0,0,0,0.65);
+    -moz-box-shadow: -9px 7px 41px -1px rgba(0,0,0,0.65);
+    box-shadow: -9px 7px 41px -1px rgba(0,0,0,0.65);
 }
 
 svg {
@@ -2470,15 +2475,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+    color: #fff;
+    background-color: #1e7e34;
+    border-color: #1e7e34;
 }
-.btn-primary:hover {
-  color: #fff;
-  background-color: #f24516;
-  border-color: #ee3e0d;
-}
+    .btn-primary:hover {
+        color: #fff;
+        background-color: #1e7e34;
+        border-color: #ee3e0d;
+    }
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
   background-color: #f24516;
@@ -6095,7 +6100,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+    background-color: #1e7e34 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6223,7 +6228,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #f4623a !important;
+    border-color: #1e7e34 !important;
 }
 
 .border-secondary {
@@ -10005,9 +10010,9 @@ html {
 }
 
 hr.divider {
-  max-width: 3.25rem;
-  border-width: 0.2rem;
-  border-color: #f4623a;
+    max-width: 3.25rem;
+    border-width: 0.2rem;
+    border-color: #1e7e34;
 }
 
 hr.light {
@@ -10096,7 +10101,7 @@ hr.light {
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 4.5rem);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/bg-masthead.jpg");
+  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../assets/img/1main.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
