@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model Porfolio.Models.Email
+
+<!DOCTYPE html>
 <html lang="en">
 
 <body id="page-top">
@@ -120,6 +122,30 @@
             <a class="btn btn-light btn-xl" href="https://drive.google.com/file/d/1CN0KnH3tRjfrA4W-awA8U4lKq1GmszV-/view?usp=sharing">Download Now!</a>
         </div>
     </section>
+    <section class="page-section bg-primary">
+        <div class="container text-center col-6 ">
+            <h1 class="text-white mt-0">
+                If you want send email directly from here!
+            </h1>
+            <hr class="divider light my-4" />
+            <form id="mailForm">
+                <div class="form-group">
+                    <input class="form-control" type="text" name="Subject" placeholder="Your or Company Name " />
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="email" name="To" placeholder="Your Email Address (Copy will be send to your e-mail address)" />
+                </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="Body" placeholder="Type your Message"></textarea>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Send Email" class="btn btn-light btn-xl" />
+                </div>
+            </form>
+        </div>
+    </section>
+
+
     <!-- Contact-->
     <section class="page-section" id="contact">
         <div class="container">
@@ -141,7 +167,6 @@
                 </div>
                 <div class="col-lg-4 mr-auto text-center">
                     <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
-                    <!-- Make sure to change the email address in BOTH the anchor text and the link target below!-->
                     <a class="d-block" href="mailto:jakub.pawelec1112@gmail.com">jakub.pawelec1112@gmail.com</a>
                 </div>
             </div>
@@ -161,3 +186,34 @@
     <script src="~/js/scripts.js"></script>
 </body>
 </html>
+
+<script>
+        $('#mailForm').submit(function (ev) {
+            ev.preventDefault();
+
+            var formData = new FormData();
+            formData.append("To", $('.form-control[name="To"]').val());
+            formData.append("Subject", $('.form-control[name="Subject"]').val());
+            formData.append("Body", $('.form-control[name="Body"]').val());
+
+
+            $.ajax({
+                url: '@Url.Action("SendEmail", "Home")',
+                type: 'POST',
+                cache: false,
+                contentType: false,
+                processData: false,
+                data: formData,
+                success: function (result) {
+                    console.log(result)
+                    $('#mailForm').toast();
+                    alert("Success! " + result);
+                },
+                error: function (result) {
+                    alert("Please complete all fields before sending e-mail!");
+                }
+            });
+          return false;
+        });
+
+</script>
